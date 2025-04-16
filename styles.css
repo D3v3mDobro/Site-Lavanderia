@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #D2691E;
+    color: #090909;
+    padding: 50px 160px;
+    height: 80vh;
+    font-family: "Noto Sans", sans-serif;
+    overflow: hidden;
+    transition: 0,5s;
+}
+
+
+body:before {
+    content: '';
+    background: #C0C0C0;
+    width: 160%;
+    height: 160%;
+    position: absolute;
+    top: 0;
+    left: -1311px;
+    transform: rotate(-70deg);
+}
+
+body::after {
+    content: 'L&C';
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: 	#708090;
+    font-size: 210px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+.botao-carrinho {
+    background: #4F4F4F;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.botao-carrinho:hover {
+    opacity: 0.7;
+}
+
+.imagem-lavanderia {
+    width: 500px;
+    transform: rotate(-0deg);
+    position: absolute;
+    top: 0%;
+    left: 68%;
+    border-radius: 60%;
+
+}
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.caixa-texto {
+    max-width: 550px;
+
+}
+
+.caixa-botoes {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0,9s;
+
+}
+
+.botoes:hover {
+    opacity: 0.7;
+}
+
+
+.cinza {
+    background: #777a6e;
+}
+
+.beje {
+    background: #EEE8AA;
+}
+
+.branco {
+    background: #F5F5F5;
+}
+
+.azul {
+    background: #483D8B;
+}
